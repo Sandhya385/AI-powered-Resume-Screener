@@ -1,8 +1,8 @@
 datasets
 sentence-transformers
-shap
 pandas
 numpy
 docx2txt
-PyMuPDF
-rapidfuzz
+streamlit
+scikit-learn
+PyPDF2
