@@ -6,7 +6,7 @@ An AI-powered resume screening tool that extracts skills from resumes and compar
 
 ## 📌 Features
 - **Skill Extraction**: Parses resumes and extracts key technical and soft skills.
-- **Benchmark Comparison**: Matches extracted skills against a predefined benchmark skills list.
+- **Benchmark Comparison**: Matches extracted skills against a predefined benchmark skills
 - **Gap Analysis**: Identifies missing or underrepresented skills in the resume.
 - **Interactive App**: Built with **Streamlit** for a user-friendly interface.
 - **Note**: The benchmark skills list does not include all possible skills and will be **updated over time** to cover more skills.
@@ -28,30 +28,42 @@ AI-Resume-Screener/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/AI-Resume-Screener.git
+   git clone https://github.com/Sandhya385/AI-powered-Resume-Screener.git
    cd AI-Resume-Screener
    ```
 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   pip install docx2txt PyPDF2
    ```
 
-3. Run the Streamlit app:
+3. If using NLTK features (optional):
+   ```python
+   import nltk
+   nltk.download('stopwords')
+   ```
+
+4. Run the Streamlit app:
    ```bash
    streamlit run app.py
    ```
 
-4. Upload a resume (PDF or text) and compare against the benchmark skills.
+5. Open in browser:
+   ```
+   http://127.0.0.1:8501/
+   ```
+
+6. Upload a resume (PDF or DOCX) and compare against the benchmark skills.
 
 ---
 
 ## 🛠 Tech Stack
-- **Python**
-- **Streamlit**
-- **scikit-learn**
-- **NLTK / Regex** for text parsing
-- **Pickle** for storing benchmark skills
+- Python (Pandas, NumPy, scikit-learn, Pickle)  
+- Streamlit (for interactive UI)  
+- docx2txt (Word document parsing)  
+- PyPDF2 (PDF parsing)  
+- Regex (text parsing)
 
 ---
 
@@ -63,4 +75,3 @@ AI-Resume-Screener/
 - Continuously **update benchmark_skills.pkl** to include more skills.
 
 ---
-
