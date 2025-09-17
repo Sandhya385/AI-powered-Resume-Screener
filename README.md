@@ -1,12 +1,12 @@
 # AI Resume Screener
 
-An AI-powered resume screening tool that extracts skills from resumes and compares them with a benchmark job description (JD). The app highlights missing skills and provides a simple gap analysis to help candidates or recruiters quickly evaluate alignment.
+An AI-powered resume screening tool that extracts skills from resumes and compares them with job description (JD). The app highlights missing skills and provides a simple gap analysis to help candidates quickly evaluate alignment.
 
 ---
 
 ## 📌 Features
 - **Skill Extraction**: Parses resumes and extracts key technical and soft skills.
-- **Benchmark Comparison**: Matches extracted skills against a predefined benchmark job description.
+- **Benchmark Comparison**: Matches extracted skills against a predefined benchmark skills list.
 - **Gap Analysis**: Identifies missing or underrepresented skills in the resume.
 - **Interactive App**: Built with **Streamlit** for a user-friendly interface.
 - **Note**: The benchmark skills list does not include all possible skills and will be **updated over time** to cover more skills.
