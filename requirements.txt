@@ -7,3 +7,6 @@ streamlit
 scikit-learn
 PyPDF2
 fitz
+PyMuPDF
+rapidfuzz
+
