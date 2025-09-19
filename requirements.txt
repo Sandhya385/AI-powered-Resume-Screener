@@ -6,3 +6,4 @@ docx2txt
 streamlit
 scikit-learn
 PyPDF2
+fitz
